@@ -11,6 +11,8 @@ into Munki, adding a postinstall_script that installs the command-line tools.</s
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/BBEdit</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Text Editors</string>
         <key>NAME</key>
         <string>BBEdit</string>
         <key>pkginfo</key>
@@ -19,8 +21,12 @@ into Munki, adding a postinstall_script that installs the command-line tools.</s
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>BBEdit is the leading professional HTML and text editor for the Mac. Specifically crafted in response to the needs of Web authors and software developers, this award-winning product provides a plethora of features for editing, searching, and manipulation of text. BBEdit transforms text with high performance.</string>
+            <key>developer</key>
+            <string>Bare Bones Software</string>
             <key>display_name</key>
             <string>BBEdit</string>
             <key>name</key>

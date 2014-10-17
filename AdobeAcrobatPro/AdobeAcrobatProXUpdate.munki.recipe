@@ -26,6 +26,8 @@ default, 'latest'.</string>
         <string>10</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/AcrobatPro</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Productivity</string>
         <key>NAME</key>
         <string>AdobeAcrobatProX_Update</string>
         <key>VERSION</key>
@@ -40,8 +42,12 @@ default, 'latest'.</string>
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string></string>
+            <key>developer</key>
+            <string>Adobe Systems Inc.</string>
             <key>display_name</key>
             <string>Adobe Acrobat Pro Update</string>
             <key>name</key>

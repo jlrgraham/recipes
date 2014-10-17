@@ -12,6 +12,8 @@
         <string>Silverlight</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Plugins</string>
         <key>DOWNLOAD_URL</key>
         <string>http://www.microsoft.com/getsilverlight/handlers/getsilverlight.ashx</string>
         <key>USER_AGENT</key>
@@ -22,8 +24,12 @@
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
+            <key>developer</key>
+            <string>Microsoft Corp.</string>
             <key>display_name</key>
             <string>Microsoft Silverlight</string>
             <key>name</key>

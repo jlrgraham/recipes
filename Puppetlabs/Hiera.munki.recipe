@@ -14,6 +14,8 @@ the default defined in the download recipe, 'latest'.</string>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>support/Hiera</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Databases</string>
         <key>NAME</key>
         <string>Hiera</string>
         <key>pkginfo</key>
@@ -22,8 +24,12 @@ the default defined in the download recipe, 'latest'.</string>
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>Hiera is a simple pluggable Hierarchical Database.</string>
+            <key>developer</key>
+            <string>Puppet Labs</string>
             <key>display_name</key>
             <string>%NAME%</string>
             <key>name</key>

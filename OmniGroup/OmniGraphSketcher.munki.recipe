@@ -12,6 +12,8 @@
         <string>OmniGraphSketcher</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Productivity</string>
         <key>APPCAST_URL</key>
         <string>http://update.omnigroup.com/appcast/com.omnigroup.OmniGraphSketcher</string>
         <key>pkginfo</key>
@@ -20,8 +22,12 @@
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>OmniGraphSketcher helps you make elegant and precise graphs in seconds, whether you have specific data to visualize or you just have a concept to explain. Specifically designed for reports, presentations, and problem sets where you need to produce sharp-looking graphs on the fly, OmniGraphSketcher combines the data plotting power of charting applications with the ease of a basic drawing program.</string>
+            <key>developer</key>
+            <string>The Omni Group</string>
             <key>display_name</key>
             <string>OmniGraphSketcher</string>
             <key>name</key>

@@ -44,6 +44,8 @@ we use its version in the pkginfo.
         <string>K2Client</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>support/K2Client</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>System Management</string>
         <key>pkginfo</key>
         <dict>
             <key>RestartAction</key>
@@ -52,8 +54,12 @@ we use its version in the pkginfo.
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>This is the client for the Sassafras KeyServer licensing managing software.</string>
+            <key>developer</key>
+            <string>Sassafras Software, Inc.</string>
             <key>display_name</key>
             <string>KeyClient</string>
             <key>name</key>

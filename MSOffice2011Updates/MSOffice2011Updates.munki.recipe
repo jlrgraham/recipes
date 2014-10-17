@@ -15,6 +15,8 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
         <string>Office2011_update</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/Office2011</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Productivity</string>
         <key>VERSION</key>
         <string>latest</string>
         <key>CULTURE_CODE</key>
@@ -53,6 +55,10 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
+            <key>developer</key>
+            <string>Microsoft Corp.</string>
             <key>update_for</key>
             <array>
                 <string>Office2011</string>

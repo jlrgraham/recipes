@@ -12,14 +12,20 @@
         <string>Handbrake</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/Handbrake</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Multimedia</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</string>
+            <key>developer</key>
+            <string>The Handbrake Project</string>
             <key>display_name</key>
             <string>Handbrake</string>
             <key>name</key>

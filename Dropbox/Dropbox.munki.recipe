@@ -25,6 +25,8 @@ located in their user's home folder.</string>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/Dropbox</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>File Sharing</string>
         <key>NAME</key>
         <string>Dropbox</string>
         <key>pkginfo</key>
@@ -33,8 +35,12 @@ located in their user's home folder.</string>
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>Dropbox is a free service that lets you bring all your photos, docs, and videos anywhere. This means that any file you save to your Dropbox will automatically save to all your computers, phones and even the Dropbox website.</string>
+            <key>developer</key>
+            <string>Dropbox</string>
             <key>display_name</key>
             <string>Dropbox</string>
             <key>name</key>

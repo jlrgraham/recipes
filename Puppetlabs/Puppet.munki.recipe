@@ -16,6 +16,8 @@ the default, 'latest'.</string>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>support/Puppet</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>System Management</string>
         <key>NAME</key>
         <string>Puppet</string>
         <key>pkginfo</key>
@@ -24,8 +26,12 @@ the default, 'latest'.</string>
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>Puppet is a tool designed to manage the configuration of Unix-like and Microsoft Windows systems declaratively.</string>
+            <key>developer</key>
+            <string>Puppet Labs</string>
             <key>display_name</key>
             <string>%NAME%</string>
             <key>name</key>

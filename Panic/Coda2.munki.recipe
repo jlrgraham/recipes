@@ -13,14 +13,20 @@ into Munki.</string>
         <string>Coda2</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/Coda2</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Text Editors</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>The most innovative and incredible all-in-one editor for your web code.</string>
+            <key>developer</key>
+            <string>Panic Inc.</string>
             <key>display_name</key>
             <string>Coda 2</string>
             <key>name</key>

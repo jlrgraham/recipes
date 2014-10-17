@@ -12,6 +12,8 @@
         <string>XLD</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/XLD</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Multimedia</string>
         <key>SU_FEED_URL</key>
         <string>http://xld.googlecode.com/svn/appcast/xld-appcast_e.xml</string>
         <key>pkginfo</key>
@@ -20,8 +22,12 @@
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>X Lossless Decoder (XLD) is a tool for Mac OS X that is able to decode/convert/play various 'lossless' audio files. The supported audio files can be split into some tracks with cue sheet when decoding.</string>
+            <key>developer</key>
+            <string>The XLD Project</string>
             <key>display_name</key>
             <string>X Lossless Decoder (XLD)</string>
             <key>name</key>

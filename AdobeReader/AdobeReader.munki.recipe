@@ -20,6 +20,8 @@ preflight script, looking to find a user's trash folder to copy the .app into.
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/Adobe</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Productivity</string>
         <key>NAME</key>
         <string>AdobeReader</string>
         <key>pkginfo</key>
@@ -33,8 +35,12 @@ preflight script, looking to find a user's trash folder to copy the .app into.
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>Adobe® Reader® is the global standard for reliably viewing, printing, and commenting on PDF documents. It&apos;s the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia.</string>
+            <key>developer</key>
+            <string>Adobe Systems Inc.</string>
             <key>display_name</key>
             <string>Adobe Reader</string>
             <key>minimum_os_version</key>

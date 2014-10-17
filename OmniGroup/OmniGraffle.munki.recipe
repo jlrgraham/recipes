@@ -12,6 +12,8 @@
         <string>OmniGraffle</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Productivity</string>
         <key>APPCAST_URL</key>
         <string>http://update.omnigroup.com/appcast/com.omnigroup.OmniGraffle</string>
         <key>pkginfo</key>
@@ -20,8 +22,12 @@
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>Need a diagram, process chart, quick page-layout, website wireframe or graphic design? OmniGraffle can help you make eye-popping graphic documents quickly by keeping lines connected to shapes even when they're moved, providing powerful styling tools, importing and exporting Microsoft Visio files, and magically organizing diagrams with just one click. Whether you need a quick sketch or an epic technical figure, OmniGraffle keeps it gorgeously understandable.</string>
+            <key>developer</key>
+            <string>The Omni Group</string>
             <key>display_name</key>
             <string>OmniGraffle</string>
             <key>name</key>

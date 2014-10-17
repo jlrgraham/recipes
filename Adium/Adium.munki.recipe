@@ -12,14 +12,20 @@
         <string>Adium</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Chat</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
             <array>
                 <string>testing</string>
             </array>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
             <string>Adium is a free instant messaging application for Mac OS X that can connect to AIM, MSN, Jabber, Yahoo, and more.</string>
+            <key>developer</key>
+            <string>The Adium Project</string>
             <key>display_name</key>
             <string>Adium</string>
             <key>name</key>

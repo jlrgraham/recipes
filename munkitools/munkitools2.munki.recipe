@@ -24,6 +24,8 @@ https://munkibuilds.org/munkitools2-latest.pkg
         <string>development</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>munkitools</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>System Management</string>
         <!--  -->
         <key>MUNKITOOLS_CORE_NAME</key>
         <string>munkitools_core</string>
@@ -191,8 +193,12 @@ https://munkibuilds.org/munkitools2-latest.pkg
                     <array>
                         <string>%MUNKI_CATALOG%</string>
                     </array>
+                    <key>category</key>
+                    <string>%MUNKI_CATEGORY%</string>
                     <key>description</key>
                     <string>%MUNKITOOLS_CORE_DESCRIPTION%</string>
+                    <key>developer</key>
+                    <string>The munki Projecgt</string>
                     <key>display_name</key>
                     <string>%MUNKITOOLS_CORE_DISPLAYNAME%</string>
                     <key>name</key>
